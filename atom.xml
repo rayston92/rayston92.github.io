@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>LEI WANG - 此中有真意，欲辨已忘言</title>
+  
+  <subtitle>学习，精进，投资，生活</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-03-11T13:27:27.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>LEI WANG</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>新的开始</title>
+    <link href="http://yoursite.com/2018/03/11/%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B/"/>
+    <id>http://yoursite.com/2018/03/11/新的开始/</id>
+    <published>2018-03-11T13:26:19.000Z</published>
+    <updated>2018-03-11T13:27:27.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>结庐在人境，而无车马喧。<br>问君何能尔？心远地自偏。<br>采菊东篱下，悠然见南山。<br>山气日夕佳，飞鸟相与还。<br>此中有真意，欲辨已忘言。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;结庐在人境，而无车马喧。&lt;br&gt;问君何能尔？心远地自偏。&lt;br&gt;采菊东篱下，悠然见南山。&lt;br&gt;山气日夕佳，飞鸟相与还。&lt;br&gt;此中有真意，欲辨已忘言。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
