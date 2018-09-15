@@ -1,6 +1,158 @@
-<!DOCTYPE html><html lang="zh-hans"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> 加密货币衍生品浅析 · LEI WANG - 此中有真意，欲辨已忘言</title><meta name="description" content="加密货币衍生品浅析 - LEI WANG"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://yoursite.com/atom.xml" title="LEI WANG - 此中有真意，欲辨已忘言"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">博客</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">文章列表</a></li><li class="nav-list-item"><a href="/about" target="_self" class="nav-list-link">关于我</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">加密货币衍生品浅析</h1><div class="post-info">Sep 10, 2018</div><div class="post-content"></div></article></div></main><footer><div class="paginator"><a href="/2018/09/05/narrow-gate-of-investment/" class="next">NEXT</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'leiwang';
+<!DOCTYPE html><html lang="zh-hans"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> 期权时代的简明指南 · LEI WANG - 此中有真意，欲辨已忘言</title><meta name="description" content="期权时代的简明指南 - LEI WANG"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://yoursite.com/atom.xml" title="LEI WANG - 此中有真意，欲辨已忘言"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">博客</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">文章列表</a></li><li class="nav-list-item"><a href="/about" target="_self" class="nav-list-link">关于我</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">期权时代的简明指南</h1><div class="post-info">Sep 10, 2018</div><div class="post-content"><p>迈伦·斯科尔斯可能料想不到，在1973年发表《期权定价和公司债务》后的25年，全世界的衍生金融商品交易市场的发展如此迅猛。他发明的B-S期权定价公式，为后面的一切铺平了道路。24年后的深秋，他获得诺贝尔经济学奖，这是现代金融工业界和学术界走的最近的一次，</p>
+<a id="more"></a>
+<p>为什么要说期权。因为加密货币的市场发展太快，以至于它只花了短短几年就把传统金融领域的演变重新走了一遍，甚至有了「交易挖矿」这种只有在区块链行业才有的玩法。我能很明显的感觉到，市场经过去年这一波涨幅后，有越来越多行业外的人进场，逐渐浮现的的二级市场量化、投行、安全审计、孵化器让市场的基础设置变得完善。</p>
+<p>然而，现在币圈的衍生品交易所极少，缺乏充分的金融对冲工具，这是是市场仍然处于早期的表现。可以预见，交易所的下半场取决于金融产品创新的能力，Bitmex和Deribit就是典型例子。期权市场会逐步发展成为一个平稳、高效、功能发挥良好的市场。期权合约也会成为交易版图中不可或缺的一部分。</p>
+<p>写这篇文章，就尽可能通俗易懂的把「期权是什么」从头到尾解释清楚。</p>
+<p>首先期权属于一种衍生品（Derivative），所有的衍生产品都是一种合约，期权也不例外。只不过有的衍生品合约是标准化的，有的是非标准化的。绝大部分场内交易的衍生品，都是标准化的合约。</p>
+<p><strong>什么是期权</strong></p>
+<blockquote>
+<p>期权（Options）本质上是一种带有时间属性（期）的权利（权），是买卖双方达成的一种合约。买方向卖方支付一定数量的金额（权利金）后，拥有在未来某一特定日期（或一段时间内），以事先约定好的价格向卖方购买（或出售）约定数量的特定标的物的权力，但不必承担义务。</p>
+</blockquote>
+<p>上面说的定义很清楚，但是举个例子更容易理解：</p>
+<p>你听说老家一年后可能拆迁，正在犹豫要不要多买几块地，这样拆迁的时候可以获得更多赔偿。这时候，你老家邻居联系你，说他有地可以卖给你，但是买的话，就必须现货交易，一手交钱，一手交地。</p>
+<p>这个时候你很犹豫，因为一时半会拿不出那么多钱，而且到底是否拆迁也说不准，只是有这个可能性。于是聪明的你提出：「一年后如果拆迁，就都买下，如果不拆，就不买。」这样岂不是完美，你心里美滋滋。</p>
+<p>谁知道邻居不同意：「如果等到明确拆迁，我怎么可能这个价卖给你。未来的事谁也说不好，你要不现在买，要不就算了。」</p>
+<p>于是你说：「这样，我给你一些钱，这几块地你帮我留着，一年后如果我决定买，你必须按照约定价卖给我了; 如果我不买，那就算了，你可以卖给别人。不管我买还是不买，给你的钱我都不会再要回来了。」</p>
+<p>邻居一听觉得挺好，反正拆迁的事不好说，还不如落地为安，先挣一笔，也没什么损失。就答应了下来。</p>
+<p>至此，你和邻居就完成了1份期权合约（Option Contract），在这个例子中，你是看涨期权（ call option）的买方，获得了之后决定是否购买土地的权利，而邻居是期权的卖方。不论你最终的决定是什么，你的邻居都将获得这份单独的报酬。</p>
+<p>所以，从期权的定义出发，我们可以根据期权买方的意愿把期权分成看涨期权和看跌期权。</p>
+<p><strong>看涨期权（Call Options）</strong>，也叫买权。指期权的买方向期权的卖方支付一定权利金（Premium）后，拥有在期权合约的有效期内，按「事先约定的价格」向对方买入一定数量的期权合约内「标的物」权利，与此对应，对方在买方行使期权时，有必须履行的义务。</p>
+<p><strong>看跌期权（Put Options）</strong>，也叫卖权。指期权的买方向期权的卖方支付一定权利金（Premium）后，拥有在期权合约的有效期内，按「事先约定的价格」向对方卖出一定数量的期权合约内「标的物」权利，与此对应，对方在买方行使期权时，有必须履行的义务。</p>
+<p>看涨期权的例子很好理解，看跌期权呢？我们最熟悉的一种看跌期权，实际上就是 <strong>保险</strong>。</p>
+<p>比如你给自家房子投保，1份保险合同可以类比为1份看跌期权。在购买保险合同后，你有权决定在日后将整个房屋（或房屋的一部分）卖给保险公司。假使房子全被烧了，你可以通知保险公司，按照已投保的金额将房屋卖给他们。即便现在房子已经烧没了，保险公司还是要向你支付约定好的金额。当然，如果房子并没有被烧毁，甚至房价涨了，那么，你也不需要将房子卖给保险公司。你可以只拥有权力，不承担义务。</p>
+<p>你在买保险时付的钱，实际上就是权利金（Premium），这部分由买卖双方协商决定，不论你的房子（在保险合同有效期内）是否发生意外，保险公司都将拥有这部分权利金。你可能好奇，为什么保险公司承担了巨大的风险，缺只收少量权利金，这是不是亏本买卖？事实上，保险的定价，本质上就是保险公司对于这份「看跌期权」的定价，通过估计不同事件发生的概率，保险公司试图来判定保险合同的公允价值。同样地，你在交易期权时，也会思考：“合约涨价的概率有多大？合约跌价的概率有多大？”。通过确定不同结果发生的概率，来判定合约的公允价值。</p>
+<p><strong>期权合约由什么构成</strong></p>
+<p>1.看涨/看跌</p>
+<p>看涨期权（Call Option），在指定日期或之前对特定资产以约定价格 <strong>买入或持有多头</strong> 的权利。<br>看跌期权（Put Option），在指定日期或之前对特定资产以约定价格 <strong>卖出或持有空头</strong> 的权利。</p>
+<p>在同一种市场预期下，我们可以通过看涨期权，也可以通过看跌期权来实现交易目的。一种组合策略既可能用看涨期权来搭建，也可能用看跌期权来搭建。</p>
+<p>2.标的</p>
+<p>期权合约术语中被买卖的资产称为标的资产（Underlying asset）或简称标的（Underlying)。在所有的期货期权交易中，标的均是期货合约。看涨期权的持有者有权利买入期货合约；看跌期权的持有者有权利卖出期货合约。</p>
+<p>3.到期日</p>
+<p>到期日是指期权持有者必须做出是否买入标的（持有看涨期权）或者卖出标的（持有看跌期权）的最终决定的日期。期权到期后，期权合约的所有权利和义务都不复存在。</p>
+<ul>
+<li>欧式期权规定只有在合约到期日方可执行期权。</li>
+<li>美式期权规定在合约到期日之前的任何一个交易日（含合约到期日）均可执行期权。</li>
+<li>百慕大期权（Bermuda Options）可以在到期日前所规定的一系列时间行权，介于欧式期权与美式期权之间。</li>
+</ul>
+<p>4.行权价</p>
+<p>行权价格或敲定价格是指期权持有者选择行使权利买入或卖出标的，所进行交割的价格。无论价格怎样波动，只要期权的买方要求执行该期权，期权的卖方就必须以此价格履行义务。</p>
+<table>
+<thead>
+<tr>
+<th>角色</th>
+<th>到期执行期权时</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>看涨期权持有者</td>
+<td>以行权价格买入标的合约</td>
+</tr>
+<tr>
+<td>看涨期权卖出者</td>
+<td>以行权价格卖出标的合约</td>
+</tr>
+<tr>
+<td>看跌期权持有者</td>
+<td>以行权价格卖出标的合约</td>
+</tr>
+<tr>
+<td>看跌期权卖出者</td>
+<td>以行权价格买入标的合约</td>
+</tr>
+</tbody>
+</table>
+<p><strong>期权和期货的不同</strong></p>
+<p>期权（Option）和期货（Future）完全不同。</p>
+<p>在期权市场：</p>
+<ul>
+<li>如果你在市场买入合约（开仓交易），持有看涨期权或看跌期权，那么，你属于合约多头（Long）；</li>
+<li>如果你卖出合约（也是开仓交易），卖出看涨期权或看跌期权，那么，你属于合约空头（Short）。</li>
+</ul>
+<p>而且期货中，一旦持有头寸（资金），要么是买多（Going Long），要么是卖空（Going Short）。</p>
+<p>注意两者的区别。</p>
+<p>期权交易最大的特点是：</p>
+<ol>
+<li>权利与义务不对等</li>
+<li>收益和风险不对等</li>
+<li>盈亏非线性</li>
+</ol>
+<p><strong>权利与义务不对等</strong></p>
+<p>期权合约的买方在向对方支付一定数额的权利金后，便取得了在约定的期限内以约定的价格向卖方购买（或出售）标的资产的权利，卖方具有向买方出售或购买标的资产的义务，当买方要求执行期权时，卖方必须履约。<br>但是，期权买方却不一定要选择到期执行期权，买方可以放弃行权，还可以在到期之前卖掉。当然，卖方为了避免到期履约的义务，也可以在到期之前买入对冲。</p>
+<p><strong>收益和风险不对等</strong></p>
+<p>当标的资产的市场价格向有利于买方变动时，买方可能获得巨大收益，卖方则会遭受巨大损失；而当标的资产的市场价格向不利于买方变动时，买方可以放弃行权，买方的最大损失（也即卖方的最大收益）等于权利金。所以，在期权交易中，买方的最大损失为权利金，潜在收益巨大；卖方的最大收益为权利金，潜在损失巨大。<strong>这点非常重要</strong>。</p>
+<p><strong>盈亏非线性</strong></p>
+<p>期权交易的非线性盈亏状态与现货币币交易、期货等的盈亏状态有本质区别。期权交易者的损益并不随标的资产的价格变化而呈线性变化，到期最大损益图是折线，而不是直线。利用这一点，可以通过期权组合、期权与期货、期权和现货的不同组合，来构造不同风险收益特征的投资组合。</p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>期权</th>
+<th>期货</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>权利和义务</td>
+<td>买方有权利，无义务；卖方承担履约的义务</td>
+<td>买卖双方权利和义务对等</td>
+</tr>
+<tr>
+<td>权利金</td>
+<td>买方支付给卖方</td>
+<td>没有所谓「权利金」</td>
+</tr>
+<tr>
+<td>保证金</td>
+<td>保证金买方需要交纳保证金，卖方不需要</td>
+<td>买卖双方都要缴纳保证金</td>
+</tr>
+<tr>
+<td>风险</td>
+<td>买卖双方都有一定风险，并且风险不对等</td>
+<td>买卖双方风险对等</td>
+</tr>
+<tr>
+<td>套期保值</td>
+<td>对于买方，放弃行权只是损失权利金，对购买资金保值；对于卖方，有权利金补贴，同样实现套保</td>
+<td>锁定标的物（Underlying）的价值</td>
+</tr>
+<tr>
+<td>盈亏</td>
+<td>期权交易是非线性盈亏，买方收益无限，亏损有限，最大亏损只限于购买期权的权利金；卖方收益收益有限（权利金），风险无限</td>
+<td>线性盈亏，买卖双方都面临无限收益和风险</td>
+</tr>
+</tbody>
+</table>
+<p><strong>期权的价格哪来的</strong></p>
+<p>有买卖，就会有价格，期权的价格称为“权利金”，它期权交易过程中唯一的变量。</p>
+<p>权利金可以分成两部分：</p>
+<ul>
+<li>内在价值（Intrinsic Value）</li>
+<li>时间价值（Time Value）</li>
+</ul>
+<p><strong>内在价值：</strong></p>
+<blockquote>
+<p>内在价值是期权的行权价格与行权时标的资产市场价格之间的差。</p>
+</blockquote>
+<p>比如，标的合约的交易价格是100USD，行权价格为75块的看涨期权的内在价值就是25USD。<br>对于该看涨期权的持有者而言，如果以75USD的行权价格买入，并以100USD的市价卖出，就能获得25USD的盈利。<br>再比如，标的合约以51USD的价格交易，行权价格为80USD的看跌期权的内在价值是29USD。如果看跌期权的持有者以80USD的行权价格卖出股票，并以51USD的市价买入标的，他就能每份获利29USD。</p>
+<p>它还可以根据期权执行价格与其标的物实时价格的关系，分为实值期权、虚值期权和平值期权：</p>
+<p>1.实值期权</p>
+<p>当看涨期权的执行价格低于标的物当时的价格时，或者当看跌期权的执行价格高于标的物当时的价格时，该期权为实值期权。当期权为实值期权时，内在价值为正。</p>
+<p>2.虚值期权</p>
+<p>当看涨期权的执行价格高于标的物当时的价格时，或者当看跌期权的执行价格低于标的物当时的价格时，该期权为虚值期权。当期权为虚值期权时，内在价值为零。</p>
+<p>3.平值期权</p>
+<p>当看涨期权的执行价格等于标的物当时的价格时，或者当看跌期权的执行价格等于标的物当时的价格时，该期权为平值期权。当期权为平值期权时，内在价值为零。</p>
+<p><strong>时间价值：</strong></p>
+<p>比如，标的合约的价格为40USD，1份3月行权价格为22USD的看涨期权，与1份9月行权价格为22USD的看涨期权，它们的内在价值都是18USD。<br>市场上的期权价格通常要大于期权的内在价值。<br>权利金中超出内在价值的部分是交易者为期权时间价值（Time Value）支付的费用，也被称为期权的时间溢价（Time Premium）或外在价值（ Extrinsic Value）。<br><strong>市场参与者愿意支付这部分溢价是因为期权能对标的资产多头头寸或空头头寸进行保护。</strong></p>
+<p>一般情况下，期权距到期日时间越长，其标的物价格发生大幅度变动的可能性越大，期权买方执行期权获利的机会也越大，所以一般到期时间长的期权会更贵。自己去期权市场看一下报价，会非常明显。</p>
+<p>期权的时间价值随到期日的临近而加快减少，期权到期时，时间价值为零。</p>
+<p><strong>波动率，波动率</strong></p>
+<p>在谈论期权价格时，我们所说的波动率通常是这个期权的 <strong>隐含波动率(Implied Volatility)</strong>，简称IV。<br>与其说隐含波动率决定期权的价格，不如说市场上期权的价格通过波动率反映了市场对该标(Underlying)的波动预期。<br>大多时候期权交易员在决定是否做某单期权交易的时候，考虑的不是该期权的价格，而是其隐含波动率。</p>
+<p>这是因为，在其他因素不变的条件下，波动率越大，该期权变为实值期权的可能性就越大，所以，为该期权所付的权利金也应相应地增加。<br>对于期权多头，做交易时最大亏损额仅限于权利金，而最大收益则取决于行权时市场价格与执行价格的差额。IV越高，对期权多头（看涨或看跌期权持有者）越有利，期权价格也应越高。反之IV越低，期权价格也越低。</p>
+</div></article></div></main><footer><div class="paginator"><a href="/2018/09/05/narrow-gate-of-investment/" class="next">NEXT</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'leiwang';
 var disqus_identifier = '2018/09/10/crypto-option/';
-var disqus_title = '加密货币衍生品浅析';
+var disqus_title = '期权时代的简明指南';
 var disqus_url = 'http://yoursite.com/2018/09/10/crypto-option/';
 (function() {
     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
