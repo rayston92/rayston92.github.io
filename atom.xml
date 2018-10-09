@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-27T08:19:04.121Z</updated>
+  <updated>2018-09-29T10:26:50.784Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一生的业绩历史</title>
+    <link href="http://yoursite.com/2018/09/29/tracking-record/"/>
+    <id>http://yoursite.com/2018/09/29/tracking-record/</id>
+    <published>2018-09-29T06:48:30.000Z</published>
+    <updated>2018-09-29T10:26:50.784Z</updated>
+    
+    <content type="html"><![CDATA[<p>投资者不相信只言片语，他们永远会去追寻你的tracking record。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;投资者不相信只言片语，他们永远会去追寻你的tracking record。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="业绩历史" scheme="http://yoursite.com/tags/%E4%B8%9A%E7%BB%A9%E5%8E%86%E5%8F%B2/"/>
+    
+  </entry>
   
   <entry>
     <title>不装</title>
