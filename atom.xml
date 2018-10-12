@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-12T06:25:29.373Z</updated>
+  <updated>2018-10-12T06:26:36.300Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2018/10/12/live-in-your-own-time-zone/"/>
     <id>http://yoursite.com/2018/10/12/live-in-your-own-time-zone/</id>
     <published>2018-10-12T06:24:35.000Z</published>
-    <updated>2018-10-12T06:25:29.373Z</updated>
+    <updated>2018-10-12T06:26:36.300Z</updated>
     
     <summary type="html">
     
@@ -156,20 +156,6 @@
     
     
       <category term="投资" scheme="http://yoursite.com/tags/%E6%8A%95%E8%B5%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://yoursite.com/2018/09/02/README/"/>
-    <id>http://yoursite.com/2018/09/02/README/</id>
-    <published>2018-09-01T16:12:47.281Z</published>
-    <updated>2018-09-01T16:12:47.281Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
     
   </entry>
   
